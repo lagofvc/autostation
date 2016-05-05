@@ -4,6 +4,7 @@ import {StepService} from "./step.service";
 @Component({
   selector: 'steps',
   template: `
+    <h2>Sample steps for a Job</h2>
     <h4>{{description}}</h4>
     <ul>
       <li *ngFor="#step of steps">
