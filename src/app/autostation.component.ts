@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['autostation.component.css']
 })
 export class AutostationAppComponent {
-  title = 'autostation works!';
+  title = 'Welcome to Automation Station';
 }

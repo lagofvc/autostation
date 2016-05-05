@@ -9,6 +9,6 @@ describe('autostation App', function() {
 
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('autostation works!');
+    expect(page.getParagraphText()).toEqual('Welcome to Automation Station');
   });
 });
