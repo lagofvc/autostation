@@ -11,4 +11,5 @@ import { StepsComponent } from "./steps.component";
 })
 export class AutostationAppComponent {
   title = 'Welcome to Automation Station';
+  bg_image = 'tigerprofile.jpg';
 }

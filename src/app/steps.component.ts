@@ -11,6 +11,7 @@ import {StepService} from "./step.service";
         {{step}}
       </li>
     </ul>
+    <button (click)="yoClick('yobitches')">YO!</button>
   `,
   providers: [StepService]
 })
@@ -21,5 +22,9 @@ export class StepsComponent {
 
   constructor(stepService: StepService){
     this.steps = stepService.getSteps();
+  }
+
+  yoClick(str: String){
+    alert(str)
   }
 }
